@@ -1,6 +1,4 @@
 
-
-
 <?php require APProot .'/views/partials/header.php';?>
 <h3>  <?php echo "welkom to: " . $data['title']?> Homepage </h3>
 
