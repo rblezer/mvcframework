@@ -9,7 +9,7 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="ab703643-d073-4c2a-80d6-a1adf9c6b255" name="cms.local" url="http://cms.local">
+      <webServer id="ab703643-d073-4c2a-80d6-a1adf9c6b255" name="cms.local" url="http://cms.ontwikkel-locatie.nl">
         <fileTransfer rootFolder="/var/www/cms_test" accessType="SFTP" host="production2.ontwikkel-locatie.nl" port="22" sshConfigId="2c1dab00-4483-4787-b544-caabd4bf5158" sshConfig="root@production2.ontwikkel-locatie.nl:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
