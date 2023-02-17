@@ -2,8 +2,15 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="568ac5f5-b94b-4a2e-a98c-5644116d7595" name="develop.local" url="http://develop.local">
-        <fileTransfer rootFolder="/var/www/develop.local" accessType="SFTP" host="192.168.30.137" port="22" sshConfigId="0e775225-17f3-4cc6-8c57-9e3797630661" sshConfig="administrator@192.168.30.137:22 password">
+      <webServer id="ea1fe6c0-e714-42e7-985a-2506440793c1" name="develop.local (project level)" url="http://develop.local">
+        <fileTransfer rootFolder="/var/www/develop.local" accessType="SFTP" sshConfigId="0e775225-17f3-4cc6-8c57-9e3797630661" sshConfig="administrator@192.168.30.137:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ab703643-d073-4c2a-80d6-a1adf9c6b255" name="cms.local" url="http://cms.local">
+        <fileTransfer rootFolder="/var/www/cms_test" accessType="SFTP" host="production2.ontwikkel-locatie.nl" port="22" sshConfigId="2c1dab00-4483-4787-b544-caabd4bf5158" sshConfig="root@production2.ontwikkel-locatie.nl:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

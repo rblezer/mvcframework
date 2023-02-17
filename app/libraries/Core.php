@@ -21,11 +21,10 @@
 				// unset zero index
 				unset($url[0]);
 			}
-			// require the contoller
+			// require the controller
 			require_once '../app/controllers/' . $this->currentController .'.php';
 
 			//instantiate controller class
-
 			$this->currentController= new $this->currentController;
 		}
 
@@ -37,6 +36,5 @@
 			$url = explode('/', $url);
 			return $url;
 			}
-
 		}
 	}
