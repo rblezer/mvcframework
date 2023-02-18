@@ -1,5 +1,4 @@
-
-
-<script src="<?php echo URLroot ?>js/main.js"></script>
+<script src="<?php
+	echo URLroot ?>js/main.js"></script>
 </body>
 </html>
