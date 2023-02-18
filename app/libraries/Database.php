@@ -5,10 +5,10 @@
 
 	class Database
 	{
-		private $host = DB_Host;
-		private $user = DB_User;
-		private $pass = DB_Pass;
-		private $dbname = DB_Name;
+		private string $host = DB_Host;
+		private string $user = DB_User;
+		private string $pass = DB_Pass;
+		private string $dbname = DB_Name;
 		private $db;
 		private $stmt;
 		private $error;
@@ -29,13 +29,13 @@
 			}
 		}
 
-		public function query($sql)
+		public function query($sql): void
 		{
 			$this->stmt = $this->dbh->prepare($sql);
 		}
 
 		// bind values
-		public function bind($param, $value, $type = null)
+		public function bind($param, $value, $type = null):void
 		{
 			if (is_null($type)) {
 				switch (true) {
