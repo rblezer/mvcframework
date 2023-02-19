@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="568ac5f5-b94b-4a2e-a98c-5644116d7595" name="develop.local" url="http://develop.local">
-        <fileTransfer rootFolder="/var/www/develop.local" accessType="SFTP" host="192.168.30.137" port="22" sshConfigId="0e775225-17f3-4cc6-8c57-9e3797630661" sshConfig="administrator@192.168.30.137:22 password">
+      <webServer id="6a0fc1ad-04ef-4f37-81ea-6197772ad330" name="cms.ontwikkel-locatie.nl" url="http://cms.ontwikkel-locatie.nl">
+        <fileTransfer rootFolder="/var/www/cms_test" accessType="SFTP" host="188.166.86.56" port="22" sshConfigId="ec4c2736-cc2b-456d-9b6e-be852e6f8133" sshConfig="root@188.166.86.56:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

@@ -24,7 +24,7 @@
 				require_once '../app/views/'.$view.'.php';
 			} else {
 				//view does not exist
-				echo sprintf("View: \"%s\" does not exist.", $view.'.php');
+				echo sprintf("View: \"%s\" does not exist.", $view. '.php');
 			}
 		}
 	}

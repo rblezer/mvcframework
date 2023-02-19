@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.30.137" id="0e775225-17f3-4cc6-8c57-9e3797630661" port="22" nameFormat="DESCRIPTIVE" username="administrator" />
+      <sshConfig authType="PASSWORD" host="159.223.228.207" id="9a235a50-1326-4dc0-a0ef-22bf2b509524" port="22" nameFormat="DESCRIPTIVE" username="master_mhyekyfkdm" useOpenSSHConfig="true" />
+      <sshConfig host="188.166.86.56" id="5b51beb8-2bef-4bf3-b8de-4113ecfde13a" keyPath="C:\Users\rblez\.ssh\production-2.ontwikkel-locatie_priv.ppk" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="false" />
+    </configs>
+  </component>
+</project>
